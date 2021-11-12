@@ -23,14 +23,14 @@ una sola istanza. Il modello di riconoscimento delle domande è comune
 mentre le risposte sono configurabili per ogni comune.
 
 Il sistema è suddiviso nei seguenti componenti:
- - unlockDB: contiene lo schema del database e gli script di installazione
- - chatcontrolapi: api per verifica disponibilità bot su dominio 
- - csibot: componente che contiene:
+ - [db](https://github.com/csipiemonte/unlockpa-db): contiene lo schema del database e gli script di installazione
+ - [chatcontrolapi](https://github.com/csipiemonte/unlockpa-chatcontrolapi): api per verifica disponibilità bot su dominio 
+ - [csibot](https://github.com/csipiemonte/unlockpa-csibot): componente che contiene:
     - un'api che riconosce una FAQ a partire da una domanda 
     - un'api di gestione per l'addestramento del modello
- - lockbotrasa: api che utilizza soluzione rasa (rasa.org) per identificare frase di uso comune
- - unlockbackoffice: applicazione web di backoffice
- - webchat: esempio di comune fruitore e proxy dei servizi esposti necessari
+ - [unlockbotrasa](https://github.com/csipiemonte/unlockpa-unlockbotrasa): api che utilizza soluzione rasa (rasa.org) per identificare frase di uso comune
+ - [backoffice](https://github.com/csipiemonte/unlockpa-backoffice): applicazione web di backoffice
+ - [examplewebsite](https://github.com/csipiemonte/unlockpa-examplewebsite): esempio di comune fruitore e proxy dei servizi esposti necessari
 
 
 # Getting Started and Installing
