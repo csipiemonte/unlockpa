@@ -10,24 +10,41 @@ description:
     features:
       - chatbot
     genericName: Virtual Assistant
-    longDescription: "UnlockPA consente di fornire a diversi comuni un assistente virtuale in grado di rispondere a domande legate alla gestione della pandemia COVID19
-    e domande generiche relative alle attività del comune.\n
-    
-    Le categorie disponibili sono:\n
-    - Covid\n
-    - Mobilità\n
-    - Segnalazioni\n
-    - Volontariato\n
-    - Scuola\n
-    - Ambiente\n
-    - Uffici comunali\n
-    - Salute\n
-    - Sport\n
-    - Cultura e servizi\n
-    - Tributi\n
-    
-    Il sistema è nativamente multi-tenant e consente di gestire più comuni su una sola istanza. Il modello di riconoscimento delle domande è comune 
-    mentre le risposte sono configurabili per ogni comune."
+    longDescription: |
+      UnlockPA consente di fornire a diversi comuni un assistente virtuale in
+      grado di rispondere a domande legate alla gestione della pandemia COVID19
+      e domande generiche relative alle attività del comune. 
+
+
+      Le categorie disponibili sono:
+
+
+      - Covid
+
+      - Mobilità
+
+      - Segnalazioni
+
+      - Volontariato
+
+      - Scuola
+
+      - Ambiente
+
+      - Uffici comunali
+
+      - Salute
+
+      - Sport
+
+      - Cultura e servizi
+
+      - Tributi
+
+
+      Il sistema è nativamente multi-tenant e consente di gestire più comuni su
+      una sola istanza. Il modello di riconoscimento delle domande è comune
+      mentre le risposte sono configurabili per ogni comune.
     shortDescription: 'UnlockPA: l''assistente virtuale per i comuni'
 developmentStatus: stable
 intendedAudience:
