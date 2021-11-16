@@ -5,6 +5,13 @@
 publiccodeYmlVersion: '0.2'
 categories:
   - digital-citizenship
+dependsOn:
+  proprietary:
+    - name: Alexa developer console
+      optional: false
+      version: ''
+      versionMax: ''
+      versionMin: ''
 description:
   it:
     features:
@@ -14,34 +21,18 @@ description:
       UnlockPA consente di fornire a diversi comuni un assistente virtuale in
       grado di rispondere a domande legate alla gestione della pandemia COVID19
       e domande generiche relative alle attività del comune. 
-
-
       Le categorie disponibili sono:
-
-
       - Covid
-
       - Mobilità
-
       - Segnalazioni
-
       - Volontariato
-
       - Scuola
-
       - Ambiente
-
       - Uffici comunali
-
       - Salute
-
       - Sport
-
       - Cultura e servizi
-
       - Tributi
-
-
       Il sistema è nativamente multi-tenant e consente di gestire più comuni su
       una sola istanza. Il modello di riconoscimento delle domande è comune
       mentre le risposte sono configurabili per ogni comune.
@@ -64,6 +55,7 @@ it:
     spid: false
   riuso:
     codiceIPA: csi_piem
+landingURL: 'https://github.com/comune-torino/alexacert.git'
 legal:
   license: EUPL-1.2
 localisation:
@@ -81,4 +73,6 @@ platforms:
 releaseDate: '2021-12-01'
 softwareType: standalone/web
 softwareVersion: 1.0.0
-url: 'https://github.com/csipiemonte/consul'
+url: 'https://github.com/csipiemonte/unlockpa'
+usedBy:
+  - Comune di Torino
